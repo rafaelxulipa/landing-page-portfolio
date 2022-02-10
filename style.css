@@ -193,19 +193,143 @@ a {
 @media only screen and (max-width: 600px) {
   .overlay {
     padding: 1.5rem;
+    height: max-content;
   }
 
   .overlay__btns {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .overlay__btn {
-    width: 100%;
+    width: 90%;
     font-size: 0.75rem;
     margin-right: 0;
   }
 
-  .overlay__btn:first-child {
-    margin-bottom: 1rem;
+  .overlay__title {
+    margin: 3px;
+    font-size: 14px;
   }
+
+  .overlay__description {
+    margin: 2px;
+    font-size: 10px;
+  }
+
+  .btn1 {
+    margin: 2px;
+  }
+  
+  .btn2 {
+    margin: 2px;
+  }
+
+  .btn3 {
+    margin: 2px;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  .overlay {
+    padding: 1.5rem;
+    height: max-content;
+  }
+
+  .overlay__btns {
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .overlay__btn {
+    width: 90%;
+    font-size: 0.75rem;
+    margin-right: 0;
+  }
+
+  .overlay__title {
+    margin: 3px;
+    font-size: 14px;
+  }
+
+  .overlay__description {
+    margin: 2px;
+    font-size: 9px;
+  }
+
+  .btn1 {
+    margin: 2px;
+    
+  }
+  
+  .btn2 {
+    margin: 2px;
+  }
+
+  .btn3 {
+    margin: 2px;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  .overlay {
+    padding: 1.5rem;
+    height: max-content;
+  }
+
+  .overlay__btns {
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .overlay__btn {
+    width: 90%;
+    font-size: 0.75rem;
+    margin-right: 0;
+  }
+
+  /* .img1 {
+    margin-bottom: 10px;
+  } */
+
+  .text-gradient {
+    font-size: 30px;
+  }
+
+  .overlay__title {
+    margin: 3px;
+    font-size: 13px;
+  }
+
+  .overlay__description {
+    margin: 2px;
+    font-size: 9px;
+  }
+
+  .btn1 {
+    margin: 2px;
+    font-size: 12px; 
+    height: 30px;
+  }
+  
+  .btn2 {
+    margin: 2px;
+    font-size: 12px; 
+    height: 30px;
+  }
+
+  .btn3 {
+    margin: 2px;
+    font-size: 12px; 
+    height: 30px;
+  }
+
 }
