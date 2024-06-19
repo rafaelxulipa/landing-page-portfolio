@@ -6,7 +6,11 @@ import debounce from "https://cdn.skypack.dev/debounce";
 
 // retornar um número aleatório dentro de um intervalo
 function random(min, max) {
-  return Math.random() * (max - min) + min;
+  //return Math.random() * (max - min) + min;
+  // === Client side ===
+  const crypto = window.crypto || window.msCrypto;
+  var array = new Uint32Array(1);
+  return crypto.getRandomValues(array); // Compliant for security-sensitive use cases
 }
 
 // mapeie um número de um intervalo para outro
