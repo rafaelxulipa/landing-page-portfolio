@@ -197,7 +197,6 @@ a {
   }
 
   .overlay__btns {
-    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -240,7 +239,6 @@ a {
   }
 
   .overlay__btns {
-    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -284,7 +282,6 @@ a {
   }
 
   .overlay__btns {
-    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -295,10 +292,6 @@ a {
     font-size: 0.75rem;
     margin-right: 0;
   }
-
-  /* .img1 {
-    margin-bottom: 10px;
-  } */
 
   .text-gradient {
     font-size: 30px;
